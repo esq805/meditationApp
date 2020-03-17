@@ -10,11 +10,12 @@
         android:allowBackup="true"
         android:label="Wellness"
         android:icon="@mipmap/ic_mountain"
-        android:supportsRtl="true">
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
-            android:theme="@style/LaunchTheme"
+            android:theme="@style/AppTheme"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
             android:hardwareAccelerated="true"
             android:windowSoftInputMode="adjustResize">
