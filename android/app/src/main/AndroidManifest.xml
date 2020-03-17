@@ -11,11 +11,11 @@
         android:label="Wellness"
         android:icon="@mipmap/ic_mountain"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/LaunchTheme">
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
-            android:theme="@style/AppTheme"
+            android:theme="@style/LaunchTheme"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
             android:hardwareAccelerated="true"
             android:windowSoftInputMode="adjustResize">
