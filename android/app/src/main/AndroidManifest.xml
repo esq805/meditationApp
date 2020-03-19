@@ -10,8 +10,7 @@
         android:allowBackup="true"
         android:label="Wellness"
         android:icon="@mipmap/ic_mountain"
-        android:supportsRtl="true"
-        android:theme="@style/LaunchTheme">
+        android:supportsRtl="true">
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
