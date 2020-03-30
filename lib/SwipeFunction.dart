@@ -3,12 +3,11 @@ import 'package:flutter/material.dart';
 void main(){
   runApp(MaterialApp(
     title: 'Navigating',
-    home: Page1(),
-
+    home: Swipe(),
   ));
 }
 
-class Page1 extends StatelessWidget {
+class Swipe extends StatelessWidget {
   @override
   Widget build(BuildContext context){
     return PageView(
@@ -28,6 +27,7 @@ class Meditate extends StatelessWidget {
       appBar: AppBar(
         title: Text("MEDITATE"),
       ),
+      backgroundColor: Colors.greenAccent.shade700,
     );
   }
 }
