@@ -8,8 +8,8 @@
     <application
         android:name="io.flutter.app.FlutterApplication"
         android:allowBackup="true"
-        android:label="Wellness"
-        android:icon="@mipmap/ic_mountain"
+        android:label="Ponder"
+        android:icon="@mipmap/ic_boybooksmeditation"
         android:supportsRtl="true">
         <activity
             android:name=".MainActivity"
